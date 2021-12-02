@@ -1,0 +1,85 @@
+{
+    "servicios": [
+        {
+            "id": 1,
+            "nombre": "Consultorías y asesorías a particulares y empresas",
+            "clasificación": "Servicios"
+        },
+        {
+            "id": 2,
+            "nombre": "Realización de proyectos y estudios dirigidos a particulares y empresas",
+            "clasificación": "Servicios"
+        },
+        {
+            "id": 3,
+            "nombre": "Instalación, reparación y mantenimiento de equipos de prevención y protección contra incendios",
+            "clasificación": "Servicios"
+        },
+        {
+            "id": 4,
+            "nombre": "Instalación de equipos de equipos y/o sistemas de circuito cerrado",
+            "clasificación": "Servicios"
+        },
+        {
+            "id": 5,
+            "nombre": "Instalación de equipos de equipos y/o sistemas de control de acceso",
+            "clasificación": "Servicios"
+        },
+        {
+            "id": 6,
+            "nombre": "Equipos y/o sistemas de telecomunicaciones",
+            "clasificación": "Servicios"
+        },
+        {
+            "id": 7,
+            "nombre": "Reparación y/o instalación de Santa Maria",
+            "clasificación": "Servicios"
+        },
+        {
+            "id": 8,
+            "nombre": "Mantenimiento de Piscinas",
+            "clasificación": "Servicios"
+        },
+        {
+            "id": 9,
+            "nombre": "Reparación y/o mantenimniento de hornos industriales",
+            "clasificación": "Servicios"
+        }
+    ],
+    "ventas": [
+        {
+            "id": 1,
+            "nombre": "Equipos de prevención y control de incendios",
+            "clasificación": "Ventas"
+        },
+        {
+            "id": 2,
+            "",
+            "clasificación": "Ventas"
+        },
+        {
+            "id": 3,
+            "nombre": "Central de incendios",
+            "clasificación": "Ventas"
+        },
+        {
+            "id": 4,
+            "nombre": "",
+            "clasificación": "Ventas"
+        },
+        {
+            "id": 5,
+            "nombre": "",
+            "clasificación": "Ventas"
+        },
+        {
+            "id": 6,
+            "nombre": "",
+            "clasificación": "Ventas"
+        }
+    ]
+}
+
+
+
+""

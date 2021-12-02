@@ -1,0 +1,73 @@
+.form-title, .form-button {
+	background: var(--gradient);
+	text-align: center;
+	color: var(--white);	
+	padding-block-start: 4px;
+	padding-block-end: 8px;
+	padding-inline-end: 8px;
+	padding-inline-start:8px;
+	text-decoration: none;
+	margin-top: 25px;
+}
+.form-title{
+	font:var(--headline5);
+	box-shadow: -4px 4px 0 var(--white);
+}
+.form-button{
+	font:var(--headline7);
+	display: flex;
+    margin: -20px -50px;
+    position: relative;
+    align-items: center;
+    margin-inline: auto;
+	border-radius: 5px;
+	width: 50%;
+	justify-content: center;
+}
+.form-subtitle{
+	font:var(--body1);
+	text-align: center;
+	padding-top: 16px;
+}
+#sendMsg{
+	opacity: 0;
+}
+
+
+.form{
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 50px;
+}
+.form label{
+    display:flex;
+    flex-direction: column;
+    font: var(--button);
+    color: var(--purple);
+     margin-top: 24px;
+}
+.form input, .form textarea{
+    border: 2px solid #858C94;
+    border-radius: 8px;
+    padding-inline-end: 16px;
+    padding-inline-start: 16px;
+    padding-block-end: 16px;
+    padding-block-start: 16px;
+    font: var(--body1);
+    margin-block-start: 8px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 599px){
+	.form input, .form textarea{
+		padding-inline-end: 4px;
+		padding-inline-start: 4px;
+		padding-block-end: 4px;
+		padding-block-start: 4px;
+		margin-block-start: 4px;
+		margin-top: 0px;
+}
+.form label{
+        margin-top: 20px;
+}
+}

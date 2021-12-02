@@ -1,0 +1,37 @@
+.grettings{
+    height: 15vh;
+    display: grid;
+    place-items: center;
+    padding-top: 30px;
+}
+.grettings_typing-effect{
+    width: 30ch;
+    font: var(--headline5); 
+	color: var(--black); 
+    animation: typing 1s steps(12), blink 15s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid var(--gradient2);
+    text-decoration-line: none;
+    font-size: 25px;
+    text-align-last: center;
+}
+@keyframes typing {
+    from{
+        width: 0;
+    }
+}
+@keyframes blink {
+    50%{
+        border-color: transparent;
+    }
+}
+
+/*RESPONSIVE*/
+
+@media screen and (min-width: 320px) and (max-width: 600px){
+    .grettings_typing-effect{ 
+        font-size: 18px;
+    }
+}
+

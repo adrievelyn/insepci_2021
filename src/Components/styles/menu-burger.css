@@ -1,0 +1,68 @@
+@media screen and (min-width: 320px) {
+    .banner-menu {
+        margin-top: 1.2rem;
+        text-decoration: none;
+        display: block;
+        padding: 5px 25px;
+        margin-right: 0px;
+        color:var(--darkOrange);
+        font-size: 14px;
+        position: relative; 
+        min-height: 48px;
+        margin-left: 50px;
+  }
+  .banner-menu p{
+    color: yellow;
+   
+}
+  .menu-img{
+        width: 45px;
+  }
+  .banner-menu input[type="checkbox"], .banner-menu .fa-burger, .banner-menu .fa-times {
+      position: absolute;  
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      right: 0;
+      top: 0;
+      width: 10px;
+      height: 34px;  
+      padding-top: 25px;
+      margin-right: 40px;
+    }
+    .fa-times{
+        
+
+    }
+    .banner-menu .fa-burger, .banner-menu .fa-times {
+      font-size: 48px;
+      pointer-events: none;
+    }
+    .banner-menu input[type="checkbox"] {
+      opacity: 0; 
+    }
+   /* .banner-menu {
+      
+    }*/
+   
+    /*.banner-menu nav li{
+        
+    }*/
+    .banner-menu nav {
+      display: none;
+     
+    }
+    .banner-menu input:checked ~ nav {
+      display: block;
+    }
+    /*.banner-menu input:checked ~ .fa-burger {
+      display: none;
+    }*/
+    /*.banner-menu input:not(:checked) ~ .fa-times {
+      display: none;
+      
+    }*/
+ 
+    
+}
+
