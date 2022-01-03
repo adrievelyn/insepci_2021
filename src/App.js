@@ -1,23 +1,23 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Switch, Route} from 'react-router-dom';
 import './App.css';
 import Home from './Components/Home';
 import Badge from './Components/Badge';
-
+import SpaceBar from './Components/Pages/spaceBar';
 
 function App() {
   return (
-    <div>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter>
+        <SpaceBar>
           <Switch>
-            <Route path="/home" component={Home} exact/>
-            <Route path="/badge" component={Badge} exact/>
+            <Route exact path="/home" component={Home} />
           </Switch>
+        </SpaceBar>
       </BrowserRouter>
-    </div>
-
-   
   );
 }
 
 export default App;
+
+
+// <Route path="/badge" component={Badge} exact/>

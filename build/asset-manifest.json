@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/insepci_2021/static/css/main.d4d83edb.chunk.css",
+    "main.js": "/insepci_2021/static/js/main.fb510eb2.chunk.js",
+    "main.js.map": "/insepci_2021/static/js/main.fb510eb2.chunk.js.map",
+    "runtime-main.js": "/insepci_2021/static/js/runtime-main.5878f135.js",
+    "runtime-main.js.map": "/insepci_2021/static/js/runtime-main.5878f135.js.map",
+    "static/js/2.dc5eba41.chunk.js": "/insepci_2021/static/js/2.dc5eba41.chunk.js",
+    "static/js/2.dc5eba41.chunk.js.map": "/insepci_2021/static/js/2.dc5eba41.chunk.js.map",
+    "static/js/3.0555e2a3.chunk.js": "/insepci_2021/static/js/3.0555e2a3.chunk.js",
+    "static/js/3.0555e2a3.chunk.js.map": "/insepci_2021/static/js/3.0555e2a3.chunk.js.map",
+    "index.html": "/insepci_2021/index.html",
+    "static/css/main.d4d83edb.chunk.css.map": "/insepci_2021/static/css/main.d4d83edb.chunk.css.map",
+    "static/js/2.dc5eba41.chunk.js.LICENSE.txt": "/insepci_2021/static/js/2.dc5eba41.chunk.js.LICENSE.txt",
+    "static/media/close.aeec27d3.png": "/insepci_2021/static/media/close.aeec27d3.png",
+    "static/media/fuego.56be189b.png": "/insepci_2021/static/media/fuego.56be189b.png",
+    "static/media/insepci-img.40ff3b83.jpg": "/insepci_2021/static/media/insepci-img.40ff3b83.jpg",
+    "static/media/instagram2.ac32ec0a.png": "/insepci_2021/static/media/instagram2.ac32ec0a.png",
+    "static/media/logoInsepci.7b120cd0.png": "/insepci_2021/static/media/logoInsepci.7b120cd0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5878f135.js",
+    "static/js/2.dc5eba41.chunk.js",
+    "static/css/main.d4d83edb.chunk.css",
+    "static/js/main.fb510eb2.chunk.js"
+  ]
+}
