@@ -8,11 +8,11 @@ import SpaceBar from './Components/Pages/spaceBar';
 function App() {
   return (
       <BrowserRouter>
-        <SpaceBar>
-          <Switch>
-            <Route exact path="/home" component={Home} />
-          </Switch>
-        </SpaceBar>
+          <SpaceBar>
+            <Switch>
+             <Route exact path="/home" component={Home} />
+            </Switch>
+          </SpaceBar>
       </BrowserRouter>
   );
 }
