@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/insepci_2021/precache-manifest.3b4acc1d4b1392be9e3b210eab7b404c.js"
+  "/insepci_2021/precache-manifest.a7f27b8ff5a1f6250e0e77a25b71d869.js"
 );
 
 workbox.clientsClaim();
