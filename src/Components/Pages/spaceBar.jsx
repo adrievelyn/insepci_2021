@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons'; 
 
 
-
 function SpaceBar(){
     const [users, setUsers]= useState([]);
     const [tableUsers, setTableUsers]= useState([]);
@@ -54,7 +53,21 @@ function SpaceBar(){
                         <FontAwesomeIcon icon={faSearch}/>
                     </button>
                 </div>
-                <div className='table-responsive'>
+            </div>
+        );
+    }
+
+
+export default SpaceBar;
+
+
+
+
+
+//https://www.youtube.com/watch?v=HPMSBCfdKKU
+//BARRA BUSCADORA YOUTUBE
+
+/*<div className='table-responsive'>
                     <table className='tale table-sm table-bordered'>
                         <thead>
                             <tr>
@@ -85,17 +98,4 @@ function SpaceBar(){
                             ))}
                         </tbody>
                     </table>
-                </div>
-            </div>
-        );
-    }
-
-
-export default SpaceBar;
-
-
-
-
-
-//https://www.youtube.com/watch?v=HPMSBCfdKKU
-//BARRA BUSCADORA YOUTUBE
+                </div>*/

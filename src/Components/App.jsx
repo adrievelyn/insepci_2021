@@ -3,16 +3,16 @@ import { BrowserRouter, Switch, Route} from 'react-router-dom';
 import '../App.css';
 import Home from './Home';
 import Badge from './Badge';
-import SpaceBar from './Pages/spaceBar';
+import Navbar from './Pages/Navbar';
 
 function App() {
   return (
       <BrowserRouter>
-        <SpaceBar>
+        <Navbar>
           <Switch>
             <Route exact path="/home" component={Home} />
           </Switch>
-        </SpaceBar>
+        </Navbar>
       </BrowserRouter>
   );
 }
