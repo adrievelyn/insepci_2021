@@ -1,20 +1,22 @@
 {
-  "files": {
-    "main.css": "/insepci_2021/static/css/main.97a69c61.css",
-    "main.js": "/insepci_2021/static/js/main.53f7b38a.js",
-    "static/js/787.ad50f80c.chunk.js": "/insepci_2021/static/js/787.ad50f80c.chunk.js",
-    "static/media/logoInsepci.png": "/insepci_2021/static/media/logoInsepci.7b120cd0c873c0c1d99c.png",
-    "static/media/insepci-img.jpg": "/insepci_2021/static/media/insepci-img.40ff3b838b900d402ffd.jpg",
-    "static/media/instagram2.png": "/insepci_2021/static/media/instagram2.ac32ec0a111aeba03298.png",
-    "static/media/fuego.png": "/insepci_2021/static/media/fuego.56be189bac2a1a70f4ee.png",
-    "static/media/close.png": "/insepci_2021/static/media/close.aeec27d34d04f9b7e97f.png",
-    "index.html": "/insepci_2021/index.html",
-    "main.97a69c61.css.map": "/insepci_2021/static/css/main.97a69c61.css.map",
-    "main.53f7b38a.js.map": "/insepci_2021/static/js/main.53f7b38a.js.map",
-    "787.ad50f80c.chunk.js.map": "/insepci_2021/static/js/787.ad50f80c.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.97a69c61.css",
-    "static/js/main.53f7b38a.js"
-  ]
+  "main.css": "/insepci_2021/static/css/main.086b3050.chunk.css",
+  "main.js": "/insepci_2021/static/js/main.d1c683e4.chunk.js",
+  "main.js.map": "/insepci_2021/static/js/main.d1c683e4.chunk.js.map",
+  "runtime~main.js": "/insepci_2021/static/js/runtime~main.fb20923a.js",
+  "runtime~main.js.map": "/insepci_2021/static/js/runtime~main.fb20923a.js.map",
+  "static/css/2.de50ab60.chunk.css": "/insepci_2021/static/css/2.de50ab60.chunk.css",
+  "static/js/2.61f72291.chunk.js": "/insepci_2021/static/js/2.61f72291.chunk.js",
+  "static/js/2.61f72291.chunk.js.map": "/insepci_2021/static/js/2.61f72291.chunk.js.map",
+  "static/js/3.141a6338.chunk.js": "/insepci_2021/static/js/3.141a6338.chunk.js",
+  "static/js/3.141a6338.chunk.js.map": "/insepci_2021/static/js/3.141a6338.chunk.js.map",
+  "index.html": "/insepci_2021/index.html",
+  "precache-manifest.55f3133153f4e33c57c821270e4ec3f7.js": "/insepci_2021/precache-manifest.55f3133153f4e33c57c821270e4ec3f7.js",
+  "service-worker.js": "/insepci_2021/service-worker.js",
+  "static/css/2.de50ab60.chunk.css.map": "/insepci_2021/static/css/2.de50ab60.chunk.css.map",
+  "static/css/main.086b3050.chunk.css.map": "/insepci_2021/static/css/main.086b3050.chunk.css.map",
+  "static/media/close.png": "/insepci_2021/static/media/close.fa5a1660.png",
+  "static/media/fuego.png": "/insepci_2021/static/media/fuego.28ea5d6a.png",
+  "static/media/insepci-img.jpg": "/insepci_2021/static/media/insepci-img.af63c3a5.jpg",
+  "static/media/instagram2.png": "/insepci_2021/static/media/instagram2.4f7cb5fb.png",
+  "static/media/logoInsepci.png": "/insepci_2021/static/media/logoInsepci.e386deab.png"
 }
