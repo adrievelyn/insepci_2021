@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "f0caf0953701824899e7",
-    "url": "/insepci_2021/static/css/main.5a5c51a9.chunk.css"
+    "revision": "a3a1b70f0f6ab1a562ef",
+    "url": "/insepci_2021/static/css/main.0790b8e5.chunk.css"
   },
   {
-    "revision": "f0caf0953701824899e7",
+    "revision": "a3a1b70f0f6ab1a562ef",
     "url": "/insepci_2021/static/js/main.1ca61c76.chunk.js"
   },
   {
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/insepci_2021/static/media/close.fa5a1660.png"
   },
   {
-    "revision": "d961258e99a57405d6c5ee30d1cd5788",
+    "revision": "c45ab131d7e319b90f8251a149315725",
     "url": "/insepci_2021/index.html"
   }
 ];
