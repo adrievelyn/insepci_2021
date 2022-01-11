@@ -24,9 +24,7 @@ class Home extends React.Component{
             Somos una empresa con gran trayectoria en el mercado dedicada a prevenir, educar, informar y asesorar
             a los patronos y trabajadores en materia de Seguridad e Higiene Ocupacional en el ámbito laboral, con 
             el objetivo de disminuir riesgos y mejorar sus condiciones de trabajo y su seguridad laboral basándonos
-            en las normas estipuladas en la Ley.<br></br><br></br>
-            Nuestra amplia experiencia en tan imprescindible práctica dentro de toda Institución Laboral, como lo son
-            la Higiene y Seguridad Industrial; nos permite garantizar calidad y confiabilidad en nuestro trabajo.
+            en las normas estipuladas en la Ley. Nuestra amplia experiencia, nos permite garantizar calidad y confiabilidad en nuestro trabajo.
             </p>
             </div>
             </div>

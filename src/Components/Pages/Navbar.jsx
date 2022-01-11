@@ -3,7 +3,6 @@ import SpaceBar from './spaceBar';
 import Home from '../../Components/Home';
 import FormInsepci from './FormInsepci';
 import '../styles/navbar.css';
-import '../styles/home.css'
 //import Logo from './../images/logo-insepci.jpg';
 import Logo from '../../images/logoInsepci.png';
 import Logo2 from '../../images/logoInsepci.png';
@@ -36,16 +35,25 @@ class Navbar extends React.Component{
                         <img className='fas fa-times' src={ClosedMenu} alt="close menu"></img>
                      <ul>
                         <li><a className='menu2' href="#1">Nosotros</a></li>
-                        <li><a className='menu' href="/servicios">Servicios</a></li>
-                        <li><a className='menu' href="/cursos">Cursos</a></li>
-                        <li><a className='menu' href="/productos">Productos</a></li>
+                        <li><a className='menu2' href="/servicios">Servicios</a></li>
+                        <li><a className='menu2' href="/cursos">Cursos</a></li>
+                        <li><a className='menu2' href="/productos">Productos</a></li>
                         <li><a className='menu2' href="#5">Contáctanos</a></li> 
                      </ul>
                     </nav>
+                    </div>
+                </div>
+                    <div>
                     <SpaceBar />
+                    </div>
                     <div>
                     <Home />
+                    </div>
+                    <div>
                     <FormInsepci />
+                    </div>
+                    
+            <div> 
             <footer className='footer'>
                  <img className='footer__logo-img2' src={Logo2} alt='logo'></img>
                   <p className='footer__text'>Copyright: Insepci.2021. <br></br> Todos los derechos reservados.</p>
@@ -62,8 +70,7 @@ class Navbar extends React.Component{
         
             </footer>
             </div>
-                </div>
-                </div>
+               
                     
             </div>
         )
