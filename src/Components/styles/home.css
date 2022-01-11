@@ -1,9 +1,8 @@
+/*@import "./badge.css";
+@import "./menu-burger.css";*/
 
-@import "./badge.css";
-@import "./menu-burger.css";
 
-
-:root{
+/*:root{
 	--fontBase: 'Poppins', sans-serif;
 	--fontBase2: 'Roboto Slab', serif;
 	--headline1: bold 95px/153px var(--fontBase);
@@ -17,10 +16,10 @@
 	--body2: 14px/22px var(--fontBase);
 	--body3: 20px/31px var(--fontBase);
 	--button: bold 14px/25px var(--fontBase);
-	--caption: 12px/25px var(--fontBase);
+	--caption: 12px/25px var(--fontBase);*/
 	/* --purple: #310A90; */
 	/* --purple: #AF87CE; */
-	--purple: #095F8B;
+	/*--purple: #095F8B;
 	--black: #000000;
 	--green: #42E2B8;
 	--white: #ffffff;
@@ -29,7 +28,7 @@
 	--gradient: radial-gradient(41.48% 100.48% at 2.38% 8.52%, #FDC830 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #F37335 0%, #000000 100%);
 	--gradient2: radial-gradient(41.48% 200.48% at 2.38% 8.52%, #000000 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #FDC830 0%, #F37335 100%);
 	
-}
+}*/
 
 *{
 	margin: 0;
@@ -47,7 +46,7 @@ body{
 	
 }
 
-.banner-menu__ppal {
+/*.banner-menu__ppal {
 	position: flex;
 	background:var(--black);
 }
@@ -81,7 +80,7 @@ body{
 }
 a:hover{
 	color: var(--darkOrange);
-}
+}*/
 .principalTitle {
 	text-align: center;
 	margin: 20px 50px;
@@ -125,7 +124,7 @@ a:hover{
 	margin-left: 25%;
 	border-radius: 10px;	
 }
-.footer{
+/*.footer{
 	display: flex;
 	background: var(--gradient2);
 	width: 100%;
@@ -154,38 +153,9 @@ a:hover{
 	height: 50px;
 	padding-left: 130px;
 	padding-top: 30px;
-}
+}*/
 
 @media screen and (min-width: 320px) and (max-width: 599px){
-	.menu{
-		display: none;
-		
-	} 
-	.banner-menu__ppal, .logo2, .logo3, .logo4{
-		width: 100%;
-		height: 100px;
-		
-	}
-	.banner-menu__ppal a{
-		color: var(--darkOrange);
-		font-size: 20px;
-		
-	}
-	.banner-menu__ppal li{
-		background-color: var(--white);
-		list-style: none;
-		text-align: center;
-		border-radius: 5px;
-	}
-
-	a:hover{
-		color: yellow;
-	}
-	.banner__logo-img, .logo-img2, .logo-img3, .logo-img4{
-		height: 80px;
-		margin-top: 10px;
-		margin-left: 30px;
-	}
 	.principalTitle {
 		font-size: 15px;
 	}
@@ -211,35 +181,6 @@ a:hover{
 		text-align: center;
 		margin-left: 0;
 	}
-	.footer{
-		width: 100%;
-	}
-	.footer__logo-img2{
-		padding-left: 20px;
-	}
-	.footer__text, .footer__text2{
-		font-size: 10px;
-		color: #000000;
-	}
-	.footer__text{
-		padding-left: 20px;
-		padding-top: 20px;
-	}
-	.footer__text2{
-		display:none;
-		
-	}
-	.footer__icon-instagram, .footer__icon-phone, .footer__icon-mail{
-		width: 20px;
-		height: 20px;
-		padding-left: 20px;
-		padding-top: 35px;
-		display: inline-block;
-	}
-	.footer__icon-mail{
-		margin-right: 20px;
-	}
-
 }
 
 @media screen and (min-width: 600px){

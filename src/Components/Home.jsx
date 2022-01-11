@@ -1,7 +1,6 @@
 import React from 'react';
 import './styles/home.css';
 import './styles/typing-effect.css';
-import FormInsepci from './Pages/FormInsepci';
 import ImgCenter from './../images/insepci-img.jpg';
 
 
@@ -32,7 +31,7 @@ class Home extends React.Component{
             </div>
             </div>
             <div>
-            <FormInsepci />
+           
             </div>
             </div>
             

@@ -1,8 +1,9 @@
 import React from 'react'
 import SpaceBar from './spaceBar';
 import Home from '../../Components/Home';
+import FormInsepci from './FormInsepci';
 import '../styles/navbar.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/home.css'
 //import Logo from './../images/logo-insepci.jpg';
 import Logo from '../../images/logoInsepci.png';
 import Logo2 from '../../images/logoInsepci.png';
@@ -44,6 +45,7 @@ class Navbar extends React.Component{
                     <SpaceBar />
                     <div>
                     <Home />
+                    <FormInsepci />
             <footer className='footer'>
                  <img className='footer__logo-img2' src={Logo2} alt='logo'></img>
                   <p className='footer__text'>Copyright: Insepci.2021. <br></br> Todos los derechos reservados.</p>
