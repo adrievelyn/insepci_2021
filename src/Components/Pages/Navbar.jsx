@@ -57,17 +57,18 @@ class Navbar extends React.Component{
             <footer className='footer'>
                  <img className='footer__logo-img2' src={Logo2} alt='logo'></img>
                   <p className='footer__text'>Copyright: Insepci.2021. <br></br> Todos los derechos reservados.</p>
-            
+            <div className='footer_icons'>
                   <a href='https://instagram.com/@insepci2021?utm_medium=copy-link' target="blank">
                     <img className='footer__icon-instagram' src={Instagram} alt='imagen de instagram'></img>
                   </a>
                   <a href='tel:+584242922862'><img className='footer__icon-phone' src={Phone} alt='imágen de teléfono'></img></a>
                   <a href='mailto:inversiones.s.p.c.i.2021@gmail.com?subject=Gracias%20por%20contactarme' target="_blank" rel="noreferrer"><img className='footer__icon-mail' src={Mail} alt='imágen de email'></img></a>
-
+            </div>
+            <div>
                     <p className='footer__text2'>Dirección: Av. Miranda, Edificio Oficentro 13, 
                         piso 03, oficina 03. <br></br> Guatire, Edo. Miranda, Municipio Zamora.
                     </p>
-        
+            </div>
             </footer>
             </div>
                
