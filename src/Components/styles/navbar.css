@@ -90,7 +90,7 @@ a:hover{
 	height: 100px;
 }
 .footer__logo-img2{
-	width: 100px;
+	width: 170px;
 	height: 80px;
 	padding-left: 40px;
 	padding-top: 10px;
@@ -98,14 +98,23 @@ a:hover{
 .footer__text, .footer__text2{
 	color: #FFFFFF;
 	font-size: 15px;
-	padding-left: 100px;
-	padding-top: 20px;
+	padding-top: 10px;
+}
+.footer__text {
+	padding-left: 50px;
+}
+.footer__text2{
+	padding-left: 90px;
+}
+.footer_icons{
+	display: inline-flex;
+	padding-left: 40px;
 }
 .footer__icon-instagram, .footer__icon-phone, .footer__icon-mail{
-	width: 50px;
-	height: 50px;
-	padding-left: 130px;
-	padding-top: 30px;
+	width: 65px;
+	height: 65px;
+	padding-left: 25px;
+	padding-top:30px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 599px){
