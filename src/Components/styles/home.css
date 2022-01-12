@@ -157,6 +157,9 @@ a:hover{
 	.principalTitle {
 		font-size: 15px;
 	}
+	.main-about{
+		margin-top: 60px;
+	}
 	.main-image-center{
 		height: 350px;
 		width: 100%;
