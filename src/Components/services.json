@@ -54,7 +54,7 @@
         },
         {
             "id": 2,
-            "",
+            "nombre": "Central de incendios",
             "clasificación": "Ventas"
         },
         {
@@ -82,4 +82,3 @@
 
 
 
-""

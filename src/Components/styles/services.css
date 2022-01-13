@@ -1,6 +1,6 @@
-
 @import "./badge.css";
 @import "./menu-burger.css";
+@import "./home.css";
 
 
 :root{
@@ -82,11 +82,6 @@ body{
 a:hover{
 	color: var(--darkOrange);
 }
-.principalTitle {
-	text-align: center;
-	margin: 20px 50px;
-	color: var(--black);
-}
 .footer{
 	display: flex;
 	background: var(--gradient2);
@@ -95,7 +90,7 @@ a:hover{
 	height: 100px;
 }
 .footer__logo-img2{
-	width: 80px;
+	width: 170px;
 	height: 80px;
 	padding-left: 40px;
 	padding-top: 10px;
@@ -103,19 +98,23 @@ a:hover{
 .footer__text, .footer__text2{
 	color: #FFFFFF;
 	font-size: 15px;
-	padding-left: 100px;
+	padding-top: 10px;
 }
-.footer__text{
-	padding-top: 35px;
+.footer__text {
+	padding-left: 50px;
 }
 .footer__text2{
-	padding-top: 25px;
+	padding-left: 90px;
+}
+.footer_icons{
+	display: inline-flex;
+	padding-left: 40px;
 }
 .footer__icon-instagram, .footer__icon-phone, .footer__icon-mail{
-	width: 50px;
-	height: 50px;
-	padding-left: 130px;
-	padding-top: 30px;
+	width: 65px;
+	height: 65px;
+	padding-left: 25px;
+	padding-top:30px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 599px){
@@ -146,11 +145,9 @@ a:hover{
 	.banner__logo-img, .logo-img2, .logo-img3, .logo-img4{
 		height: 80px;
 		margin-top: 10px;
-		
+		margin-left: 30px;
 	}
-	.principalTitle {
-		font-size: 15px;
-	}
+
 	.footer{
 		width: 100%;
 	}
@@ -158,32 +155,34 @@ a:hover{
 		padding-left: 20px;
 	}
 	.footer__text, .footer__text2{
-		font-size: 10px;
+		font-size: 8px;
 		color: #000000;
-	}
-	.footer__text{
-		padding-left: 20px;
 		padding-top: 20px;
 	}
+	.footer__text{
+		padding-left: 10px;
+	}
 	.footer__text2{
-		display:none;
+		padding-left: 20px;
+		
+	}
+	.footer_icons a{
+		display: block;
 		
 	}
 	.footer__icon-instagram, .footer__icon-phone, .footer__icon-mail{
-		width: 20px;
-		height: 20px;
-		padding-left: 20px;
-		padding-top: 35px;
-		display: inline-block;
+		padding-left: 15px;
+		padding-top: 5px;
+		width: 40px;
+		height: 30px;
 	}
-	.footer__icon-mail{
-		margin-right: 20px;
-	}
+	
 
 }
 
 @media screen and (min-width: 600px){
 	.banner-menu {
 	display: none;
-} 
+	} 
+	
 }
