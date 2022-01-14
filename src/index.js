@@ -1,15 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './Components/App';
+//import App from './Components/App';
 //import Home from './Components/Home';
-//import Services from './Components/Services';
+import Services from './Components/Services';
 import reportWebVitals from './reportWebVitals';
 
 
   const container = document.getElementById('app')
 
-  ReactDOM.render(<App />, container);
+  ReactDOM.render(<Services />, container);
+
+  /*TAMBIEN SE PUEDE ESCRIBIR ASI
+   ReactDOM.render(<Services />, document.getElementById('app')); */
 
 
 /*ReactDOM.render(

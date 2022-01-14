@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route} from 'react-router-dom';
-import '../Styles/App.scss';
+import '../sass/App.scss';
 import Home from './Home';
 import Badge from './Badge';
 import Navbar from './Pages/Navbar';
