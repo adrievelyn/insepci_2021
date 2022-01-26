@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import SpaceBar from './spaceBar';
 import Home from '../../Components/Home';
 import FormInsepci from './FormInsepci';
@@ -20,7 +21,7 @@ class Navbar extends React.Component{
                 <img className='banner__logo-img' src={Logo} alt='Logo'></img>
                     
                         <a className='menu' href="#1">Nosotros</a>
-                        <a className='menu' href="#2">Servicios</a>
+                        <Link className='menu' to="/services">Servicios</Link>
                         <a className='menu' href="#3">Cursos</a>    
                         <a className='menu' href="#4">Productos</a>
                         <a className='menu' href="#5">Contáctanos</a> 
@@ -32,7 +33,7 @@ class Navbar extends React.Component{
                     <i className="fa-solid fa-burger"></i>
                     <i className="fas fa-times"></i>
                     <nav className="banner-menu__resp">
-                        <img className='fas fa-times' src={ClosedMenu} alt="close menu"></img>
+                        <img className='fas fa-times' src={ClosedMenu} alt="close menu">Cerrar</img>
                      <ul>
                         <li><a className='menu2' href="#1">Nosotros</a></li>
                         <li><a className='menu2' href="/servicios">Servicios</a></li>

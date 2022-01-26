@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/services.css';
+import '../sass/services.scss';
 import './styles/typing-effect.css';
 //import Logo from './../images/logo-insepci.jpg';
 //import Logo from './../images/logoInsepci.png';
@@ -19,32 +19,32 @@ function Services(){
                     img={Insepci}
                     title='Herramientas'
                     description='implementos'
-                    price='$30' />
+                    price='30' />
                 <ServicesCards
                     img={Insepci}
                     title='Herramientas'
                     description='implementos'
-                    price='$30' />
+                    price='30' />
                 <ServicesCards
                     img={Insepci}
                     title='Herramientas'
                     description='implementos'
-                    price='$30' />
+                    price='30' />
                 <ServicesCards
                     img={Insepci}
                     title='Herramientas'
                     description='implementos'
-                    price='$30' />
+                    price='30' />
                 <ServicesCards
                     img={Insepci}
                     title='Herramientas'
                     description='implementos'
-                    price='$30' />
+                    price='30' />
                 <ServicesCards
                     img={Insepci}
                     title='Herramientas'
                     description='implementos'
-                    price='$30' />
+                    price='30' />
             </div>
     )
 };
