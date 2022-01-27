@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/insepci_2021/static/css/main.6793ed75.css",
-    "main.js": "/insepci_2021/static/js/main.689b8981.js",
+    "main.css": "/insepci_2021/static/css/main.cb09dc47.css",
+    "main.js": "/insepci_2021/static/js/main.d55e7b80.js",
     "static/js/787.ad50f80c.chunk.js": "/insepci_2021/static/js/787.ad50f80c.chunk.js",
     "static/media/logoInsepci.png": "/insepci_2021/static/media/logoInsepci.7b120cd0c873c0c1d99c.png",
     "static/media/insepci-img.jpg": "/insepci_2021/static/media/insepci-img.40ff3b838b900d402ffd.jpg",
@@ -9,12 +9,12 @@
     "static/media/fuego.png": "/insepci_2021/static/media/fuego.56be189bac2a1a70f4ee.png",
     "static/media/close.png": "/insepci_2021/static/media/close.aeec27d34d04f9b7e97f.png",
     "index.html": "/insepci_2021/index.html",
-    "main.6793ed75.css.map": "/insepci_2021/static/css/main.6793ed75.css.map",
-    "main.689b8981.js.map": "/insepci_2021/static/js/main.689b8981.js.map",
+    "main.cb09dc47.css.map": "/insepci_2021/static/css/main.cb09dc47.css.map",
+    "main.d55e7b80.js.map": "/insepci_2021/static/js/main.d55e7b80.js.map",
     "787.ad50f80c.chunk.js.map": "/insepci_2021/static/js/787.ad50f80c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6793ed75.css",
-    "static/js/main.689b8981.js"
+    "static/css/main.cb09dc47.css",
+    "static/js/main.d55e7b80.js"
   ]
 }
